@@ -1,0 +1,490 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="Clover">
+    <option name="installDate" value="1382704446960" />
+    <option name="sid" value="BZUH-Y27Q-913G-YQ5W" />
+  </component>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="EXT_CONFIGURATION">
+      <value>
+        <option name="CVS_RSH" value="ssh" />
+        <option name="PRIVATE_KEY_FILE" value="" />
+        <option name="ADDITIONAL_PARAMETERS" value="" />
+        <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="false" />
+      </value>
+    </option>
+    <option name="SSH_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="LOCAL_CONFIGURATION">
+      <value>
+        <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+      </value>
+    </option>
+    <option name="PROXY_SETTINGS">
+      <value>
+        <option name="USE_PROXY" value="false" />
+        <option name="PROXY_HOST" value="" />
+        <option name="PROXY_PORT" value="8080" />
+        <option name="TYPE" value="0" />
+        <option name="LOGIN" value="" />
+        <option name="PASSWORD" value="" />
+      </value>
+    </option>
+    <option name="SSH_FOR_EXT_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+    <option name="TIMEOUT" value="10" />
+    <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
+    <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="CHECKOUT_KEYWORD_SUBSTITUTION" />
+    <option name="SHOW_RESTORE_DIRECTORIES_CONFIRMATION" value="true" />
+    <option name="ENCODING" value="Default" />
+    <option name="USE_GZIP" value="false" />
+    <option name="DO_OUTPUT" value="false" />
+    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
+    <option name="SHOW_PATH" value="true" />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CLASSLOADERS" value="true" />
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapNever" />
+    <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.intellij.rt.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.yourkit.runtime.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.springsource.loaded.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.springsource.loaded.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="DependencyUISettings">
+    <option name="SCOPE_TYPE" value="file" />
+  </component>
+  <component name="Error Report Configurable">
+    <option name="JIRA_LOGIN" value="" />
+    <option name="JIRA_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_JIRA_PASSWORD" value="false" />
+  </component>
+  <component name="ErrorReportConfigurable">
+    <option name="ITN_LOGIN" value="" />
+    <option name="ITN_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_ITN_PASSWORD" value="false" />
+    <option name="EMAIL" value="" />
+  </component>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://docs.improbable.io/schema/v1/GamelogicDefinitionsSchema.xsd" location="$USER_HOME$/.IdeaIC14/system/extResources/86bf8705_GamelogicDefinitionsSchema.xsd" />
+  </component>
+  <component name="GlobalAntConfiguration">
+    <filtersTableLayout />
+    <propertiesTableLayout />
+  </component>
+  <component name="PropertiesSeparatorManager">
+    <file url="file://C:/iw/release-iw/Sourcerer/project/build.properties" separator="\u002e" />
+  </component>
+  <component name="Rearranger">
+    <Rearranger KeepGettersSettersTogether="true" KeepGettersSettersWithProperty="false" KeepOverloadedMethodsTogether="true" ConfirmBeforeRearranging="false" RearrangeInnerClasses="false" globalCommentPattern="" overloadedOrder="1" ShowParameterTypes="true" ShowParameterNames="false" ShowFields="true" ShowTypeAfterMethod="true" ShowRules="true" ShowMatchedRules="false" ShowComments="false" RemoveBlanksInsideCodeBlocks="true">
+      <Items>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="7" allPrecedingRules="true" allSubsequentRules="false" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ ------------------------------\ FIELDS\ ------------------------------\n</Comment>
+        <Field priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="true" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="true" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="false" private="false" protected="true" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ --------------------------\ STATIC\ METHODS\ --------------------------\n</Comment>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ ---------------------------\ CONSTRUCTORS\ ---------------------------\n</Comment>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="true" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="true" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ ---------------------\ GETTER\ /\ SETTER\ METHODS\ ---------------------\n</Comment>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="true" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ ------------------------\ CANONICAL\ METHODS\ ------------------------\n</Comment>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="true" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ ------------------------\ INTERFACE\ METHODS\ ------------------------\n</Comment>
+        <Interface alphabetizeInterfaces="true" noExtractedMethods="true" methodOrder="1" priority="1" fillString="" useProjectWidthForFill="true" fillWidth="0">
+          <NameMatch match="false" invert="false" pattern="" />
+          <PrecedingComment>
+            <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ ---------------------\ Interface\ %IF%\ ---------------------\n</Comment>
+          </PrecedingComment>
+          <TrailingComment>
+            <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+          </TrailingComment>
+        </Interface>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ --------------------------\ OTHER\ METHODS\ --------------------------\n</Comment>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ --------------------------\ ENUMERATIONS\ --------------------------\n</Comment>
+        <InnerClass priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Enum value="true" invert="false" />
+        </InnerClass>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ --------------------------\ INNER\ CLASSES\ --------------------------\n</Comment>
+        <InnerClass priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Enum value="false" invert="false" />
+        </InnerClass>
+        <Comment condition="2" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0">\n//\ ---------------------------\ main()\ method\ ---------------------------\n</Comment>
+        <Method priority="2">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="true" invert="false" pattern="main" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+      </Items>
+      <Classes>
+        <Class priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Enum value="false" invert="false" />
+        </Class>
+      </Classes>
+      <DefaultGetterSetterDefinition>
+        <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+      </DefaultGetterSetterDefinition>
+      <RelatedMethods moveExtractedMethods="true" belowFirstCaller="true" depthFirstOrdering="true" ordering="0" nonPrivateTreatment="2" commentType="0" fillString="" useProjectWidthForFill="true" fillWidth="0">
+        <PrecedingComment>
+          <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+        </PrecedingComment>
+        <TrailingComment>
+          <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+        </TrailingComment>
+      </RelatedMethods>
+      <AfterClassLBrace Force="true" nBlankLines="0" />
+      <AfterClassRBrace Force="true" nBlankLines="1" />
+      <BeforeClassRBrace Force="true" nBlankLines="0" />
+      <BeforeMethodLBrace Force="false" nBlankLines="1" />
+      <AfterMethodLBrace Force="true" nBlankLines="0" />
+      <AfterMethodRBrace Force="true" nBlankLines="1" />
+      <BeforeMethodRBrace Force="true" nBlankLines="0" />
+      <NewlinesAtEOF Force="false" nBlankLines="1" />
+    </Rearranger>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="renameParameterInHierarchy" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="MOVE_SEARCH_FOR_TEXT" value="false" />
+    <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+    <option name="RENAME_PARAMETER_IN_HIERARCHY" value="false" />
+  </component>
+  <component name="SbtSettings">
+    <option name="jdkHome" value="" />
+    <option name="sbtLauncherJarPath" value="$APPLICATION_PLUGINS_DIR$/Scala/launcher/sbt-launch.jar" />
+    <option name="sbtLauncherVmParameters" value="" />
+  </component>
+  <component name="SelectProjectTemplateSettings">
+    <option name="LAST_TEMPLATE" value="Java/Maven" />
+  </component>
+  <component name="TeamCityHistory">
+    <option name="HISTORY" value="http://teamcity.improbableworlds.net:8111&amp;^%$#@yifan" />
+  </component>
+  <component name="XPathView.XPathViewPlugin">
+    <option name="attributes">
+      <TextAttributes />
+    </option>
+    <option name="contextAttributes">
+      <TextAttributes />
+    </option>
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="ScalaTest Class" />
+          </list>
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl">
+    <resource url="http://docs.improbable.io/schema/v1/GamelogicDefinitionsSchema.xsd" location="$USER_HOME$/.IdeaIC13/system/extResources/86bf8705_GamelogicDefinitionsSchema.xsd" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Trim space" />
+</application>

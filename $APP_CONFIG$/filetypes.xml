@@ -1,0 +1,17 @@
+<application>
+  <component name="CommunityFileTypes" version="11">
+    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;" />
+    <extensionMap>
+      <mapping ext="ftl" type="PLAIN_TEXT" />
+      <mapping ext="version" type="PLAIN_TEXT" />
+      <mapping ext="descriptor" type="PLAIN_TEXT" />
+      <mapping pattern="PubSubMessages" type="XML" />
+      <mapping pattern="HackSlagBastardEquipment" type="XML" />
+      <mapping pattern="assetenums" type="XML" />
+      <mapping pattern="HasMap" type="XML" />
+      <mapping ext="jspx" type="XML" />
+      <mapping ext="tagx" type="XML" />
+    </extensionMap>
+    <setting name="fileTypeChangedCounter" value="3" />
+  </component>
+</application>

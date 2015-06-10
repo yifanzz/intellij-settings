@@ -1,0 +1,103 @@
+<templateSet group="scala">
+  <template name="tme" value="//TODO(yifan): " description="Todo Comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="T" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;&#10;" description="Surround with &lt;tag&gt;&lt;/tag&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="test" value="&quot;$TestName$&quot; in {&#10;  fail()$END$&#10;}" description="test case stub" toReformat="true" toShortenFQNames="true">
+    <variable name="TestName" expression="" defaultValue="this is a wonderful test" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="when" value="when($MethodNameWithParam$).thenReturn($Result$)" description="ScalaTest mockito" toReformat="true" toShortenFQNames="true">
+    <variable name="MethodNameWithParam" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Result" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="verify" value="verify($MockName$).$MethodName$($Params$)" description="ScalaTest mockito" toReformat="true" toShortenFQNames="true">
+    <variable name="MockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MethodName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="must" value="&quot;$BlockName$&quot; must {&#10;&#10;  $End$&#10;}" description="ScalaTest must block" toReformat="true" toShortenFQNames="true">
+    <variable name="BlockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="testimports" value="import org.mockito.Mockito._&#10;import org.mockito.{Matchers =&gt; M}" description="Imports for Mockito and its Matchers" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="mckt" value="import org.mockito.Mockito._&#10;import org.mockito.{Matchers =&gt; M}&#10;$END$" description="Import mockito and matchers" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="murder" value="//TODO (dima): Murder $END$" description="Todo to murder stuff" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="debug" value="println(s&quot;AAAA $Debug$&quot;)$END$" description="Colored println" toReformat="true" toShortenFQNames="true">
+    <variable name="Debug" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="some" value="Some($SELECTION$)" description="wrap with Some(...)" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="bracket" value="($SELECTION$)" description="wrap with (...)" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="quote" value="&quot;$SELECTION$&quot;&#10;" description="wrap with &quot;...&quot;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="sbt" value="import sbt._&#10;import sbt.Keys._" description="Sbt imports" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="todo" value="// TODO(yifan): " shortcut="ENTER" description="TODO" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="flag" value="@FlagInfo(name = &quot;$name$&quot;, help = &quot;$help$&quot;)&#10;final val $SELECTION$ = ScalaFlagz.valueOf($defaultValue$)&#10;" description="wrap with flag definition" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="name" expression="" defaultValue="WTF" alwaysStopAt="true" />
+    <variable name="help" expression="" defaultValue="HTF do I use this" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="huh?" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

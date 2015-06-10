@@ -1,0 +1,41 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project and Libraries" />
+    <option name="defaultScopeName" value="Project and Libraries" />
+    <option name="regularExpressions" value="true" />
+    <option name="skipResultsWithOneUsage" value="true" />
+    <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.scala,*.ftl, *.sbt, *.xml, *.properties, *.rst, *.java" />
+    <recentFileMasks>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.xml, *.scala</mask>
+      <mask>*.xml; *.scala</mask>
+      <mask>*.csproj</mask>
+      <mask>*.properties</mask>
+      <mask>*.xml</mask>
+      <mask>*.scala, *.ftl</mask>
+      <mask>*.cs</mask>
+      <mask>*.ftl</mask>
+      <mask>*.scala,*.ftl, *.xml</mask>
+      <mask>*.scala,*.ftl, *.xml, *.properties</mask>
+      <mask>*.scala,*.ftl</mask>
+      <mask>*.scala</mask>
+      <mask>*.scala,*.ftl, *.sbt</mask>
+      <mask>*.scala,*.ftl, *.sbt, *.xml</mask>
+      <mask>*.scala,*.ftl, *.sbt, *.xml, *.properties</mask>
+      <mask>*.scala,*.ftl, *.sbt, *.xml, *.properties, *.rst</mask>
+      <mask>improbable.version</mask>
+      <mask>*improbable.version</mask>
+      <mask>*Test.scala</mask>
+      <mask>*.scala,*.ftl, *.sbt, *.xml, *.properties, *.rst, *.java</mask>
+    </recentFileMasks>
+  </component>
+</application>

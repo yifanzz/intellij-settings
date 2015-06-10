@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="AlternateApplicationComponent">
+    <option name="genericFileExtensionRegexItems">
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="java" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="properties" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="html?" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="sql" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="xml" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="dtd" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="xsd" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="rb" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="py" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="php" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="pl" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="pm" />
+      </AlternateGenericFileExtensionRegexItem>
+      <AlternateGenericFileExtensionRegexItem>
+        <option name="fileExtension" value="scala" />
+      </AlternateGenericFileExtensionRegexItem>
+    </option>
+  </component>
+</application>
+

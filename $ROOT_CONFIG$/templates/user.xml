@@ -1,0 +1,84 @@
+<templateSet group="user">
+  <template name="traitfile" value="&lt;Group package=&quot;improbable.game.g3.entity.&lt;subpackage&gt;&quot;&gt;&#10;&#10;    &lt;Data name=&quot;&lt;Trait&gt;Data&quot;&gt;&#10;        &lt;Properties&gt;&#10;            &lt;Property name=&quot;param&quot; type=&quot;type&quot;/&gt;&#10;        &lt;/Properties&gt;&#10;        &lt;TransientEvents&gt;&#10;            &lt;TransientEvent name=&quot;VisualizeStuff&quot;&gt;&#10;                &lt;Property name=&quot;param&quot; type=&quot;type&quot;/&gt;&#10;            &lt;/TransientEvent&gt;&#10;        &lt;/TransientEvents&gt;&#10;    &lt;/Data&gt;&#10;&#10;    &lt;EntityTrait name=&quot;&lt;Trait&gt;&quot;&gt; &lt;!--no need to add &quot;Trait&quot; to the end--&gt;&#10;        &lt;Model data=&quot;&lt;Trait&gt;Data&quot; dataResolver=&quot;GSimAuthDataResolver&quot;/&gt;&#10;        &lt;Interfaces&gt;&#10;            &lt;!-- Implements interface --&gt;&#10;            &lt;Interface name=&quot;&lt;Trait&gt;Interface&quot; /&gt;&#10;        &lt;/Interfaces&gt;&#10;        &lt;Dependencies&gt;&#10;            &lt;Interface name=&quot;&lt;AnotherTrait&gt;Interface&quot; package=&quot;improbable.game.g3.entity.somepackage&quot;/&gt;&#10;        &lt;/Dependencies&gt;&#10;    &lt;/EntityTrait&gt;&#10;&#10;&lt;/Group&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="trait" value="&lt;EntityTrait name=&quot;&lt;Trait&gt;&quot;&gt; &lt;!--no need to add &quot;Trait&quot; to the end--&gt;&#10;    &lt;Model data=&quot;&lt;Trait&gt;Data&quot; dataResolver=&quot;GSimAuthDataResolver&quot;/&gt;&#10;    &lt;Interfaces&gt;&#10;        &lt;!-- Implements interface --&gt;&#10;        &lt;Interface name=&quot;&lt;Trait&gt;Interface&quot; /&gt;&#10;    &lt;/Interfaces&gt;&#10;    &lt;Dependencies&gt;&#10;        &lt;Interface name=&quot;&lt;AnotherTrait&gt;Interface&quot; package=&quot;improbable.game.g3.entity.somepackage&quot;/&gt;&#10;    &lt;/Dependencies&gt;&#10;&lt;/EntityTrait&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="dependencies" value="&lt;Dependencies&gt;&#10;    &lt;Interface name=&quot;&lt;AnotherTrait&gt;Interface&quot; package=&quot;improbable.game.g3.entity.somepackage&quot;/&gt;&#10;&lt;/Dependencies&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="todo" value="// TODO(yifan): " toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="wrapwith" value="$FuncName$($SELECTION$)" toReformat="false" toShortenFQNames="true">
+    <variable name="FuncName" expression="" defaultValue="Function" alwaysStopAt="true" />
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
