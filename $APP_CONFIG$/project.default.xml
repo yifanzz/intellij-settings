@@ -204,6 +204,16 @@
           <Port>5050</Port>
         </configuration>
       </component>
+      <component name="SbtLocalSettings">
+        <option name="modificationStamps">
+          <map>
+            <entry key="$USER_HOME$/Private/iw/UnitySDK" value="1434556595129" />
+          </map>
+        </option>
+        <option name="externalProjectsViewState">
+          <projects_view />
+        </option>
+      </component>
       <component name="ScalaProjectSettings">
         <option name="implicitParametersSearchDepth" value="1" />
       </component>
