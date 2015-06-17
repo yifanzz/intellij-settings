@@ -78,7 +78,7 @@
   <template name="sbt" value="import sbt._&#10;import sbt.Keys._" description="Sbt imports" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
-  <template name="todo" value="// TODO(yifan): " shortcut="ENTER" description="TODO" toReformat="true" toShortenFQNames="true">
+  <template name="todo" value="// TODO(yifan): " shortcut="SPACE" description="TODO" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -91,6 +91,11 @@
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_STRING" value="true" />
       <option name="COMPLETION" value="true" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
