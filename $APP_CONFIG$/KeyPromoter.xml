@@ -8,6 +8,7 @@
         <option name="menusEnabled" value="false" />
         <option name="toolbarButtonsEnabled" value="false" />
         <option name="toolWindowButtonsEnabled" value="false" />
+        <option name="fixedTipPosistion" value="true" />
       </KeyPromoterSettings>
     </option>
   </component>

@@ -1,0 +1,26 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift control alt O" />
+  </action>
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="shift control C" />
+  </action>
+  <action id="CopyPaths" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift control alt O" />
+  </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="alt W" second-keystroke="SEMICOLON" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift alt SEMICOLON" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift F6" />
+    <keyboard-shortcut first-keystroke="alt R" />
+  </action>
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="control alt 7" />
+    <keyboard-shortcut first-keystroke="alt F" />
+  </action>
+</keymap>
